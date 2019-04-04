@@ -1,8 +1,8 @@
 var tripleEntry = artifacts.require('./TripleEntry.sol');
 const Web3 = require('web3');
 const web3 = new Web3(new Web3.providers.WebsocketProvider('ws://localhost:9545'));
-var dueDate='1554371943';
-var issueDate="1553731200";
+var dueDate='1554871943'; //04/10/2019 @ 4:52am (UTC)
+var issueDate="1553731200"; //03/28/2019 @ 12:00am (UTC)
 var amount=50;
 var tax=5;
 var totalAmount=amount+tax;

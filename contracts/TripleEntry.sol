@@ -1,4 +1,5 @@
-pragma solidity >=0.5.00 <0.6.0;
+pragma solidity >=0.5.0 <0.6.0;
+
 /** @title Triple Entry Accounting */
 contract TripleEntry{
 
